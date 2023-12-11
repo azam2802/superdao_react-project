@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+	img{
+		width: 100%;
+	}
+	
+	.row, .photos{
+		flex-wrap: wrap;
+	}
+
+	html{
+		overflow-x: hidden;
+		overflow-wrap:normal;
+	}
+	
+	#section-4_stars{
+		display: none;
+	}
+
+	.links{
+		flex-wrap: wrap;
+	}
+
+	.section-4 a{
+		margin: 0px !important;
+	}
+
+	
+}
